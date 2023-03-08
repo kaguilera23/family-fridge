@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/family-fridge/static/css/main.383e35d7.css",
+    "main.js": "/family-fridge/static/js/main.e153a069.js",
+    "static/js/787.28cb0dcd.chunk.js": "/family-fridge/static/js/787.28cb0dcd.chunk.js",
+    "static/media/profilepicture.png": "/family-fridge/static/media/profilepicture.a807f484cf08407ae1f1.png",
+    "static/media/binge.png": "/family-fridge/static/media/binge.fe09c1028f52a8387285.png",
+    "static/media/weather.png": "/family-fridge/static/media/weather.4f03ceea16b4d30595ba.png",
+    "static/media/schedule.png": "/family-fridge/static/media/schedule.7379b7d625c0e150ff5b.png",
+    "static/media/password.png": "/family-fridge/static/media/password.c8942ccf319427161674.png",
+    "index.html": "/family-fridge/index.html",
+    "main.383e35d7.css.map": "/family-fridge/static/css/main.383e35d7.css.map",
+    "main.e153a069.js.map": "/family-fridge/static/js/main.e153a069.js.map",
+    "787.28cb0dcd.chunk.js.map": "/family-fridge/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.383e35d7.css",
+    "static/js/main.e153a069.js"
+  ]
+}
