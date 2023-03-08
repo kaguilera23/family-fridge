@@ -1,0 +1,57 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e
+}
+
+.project-picture {
+    width: 301px;
+    height: 150px;
+    border: var(--mainbrown) 2px solid;
+    justify-content: center;
+}
+
+#project-cards {
+    padding: 20px;
+}
+
+#nav-buttons {
+    margin: 5px;
+}
+
+#live-button {
+    padding: 20px;
+}
+
+#medi {
+    background-image: url(../../images/medi.png);
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+#weather {
+    background-image: url(../../images/weather.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#quiz {
+    background-image: url(../../images/quiz.png);
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+#schedule {
+    background-image: url(../../images/schedule.png);
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+#binge {
+    background-image: url(../../images/binge.png);
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+#password {
+    background-image: url(../../images/password.png);
+    background-size: contain;
+    background-repeat: no-repeat;}

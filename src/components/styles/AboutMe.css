@@ -1,0 +1,30 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e
+}
+
+#profile-picture {
+    border: var(--mainpurple) 2px solid;
+    height: 250px;
+    width: 250px;
+    background-image: url("../../images/profilepicture.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
+#image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px
+    
+}
+
+#text-section {
+    display: flex;
+    justify-content: space-around;
+}
