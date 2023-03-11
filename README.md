@@ -20,4 +20,4 @@ When you first load the portfolio, you will be taken to the "About Me" section. 
 
 ## Link
 
-Visit the Portfolio <a href="https://kaguilera23.github.io/fridge-projects/">Here!</a>
+Visit the Portfolio <a href="https://kaguilera23.github.io/family-fridge/">Here!</a>
