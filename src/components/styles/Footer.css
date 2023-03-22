@@ -21,7 +21,12 @@
 
 #links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#icons {
+    height:50px;
+    width: 50px;
 }
 
 a {
