@@ -9,9 +9,19 @@
 #main-header {
     background-color: var(--mainpink);
     padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+
 }
 
 #header-text {
-    color: white;
+    color: var(--mainbrown)
 }
+
+.nav-links {
+    border-right: white 1px solid;
+}
+
 
