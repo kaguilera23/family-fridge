@@ -1,44 +1,94 @@
 import "../styles/AboutMe.css"
+import { Avatar, Col, Row } from "antd";
+import { UserOutlined } from "@ant-design/icons";
 
 function AboutMe() {
+    const frontEnd = ["HTML5", "CSS", "JavaScript", "React", "Bootstrap", "Chakra UI", "Ant Design", "Handlebars"]
+
+    const backEnd = ["Mongoose", "MongoDB", "Express", "NodeJS", "MySQL", "GraphQL", "Handlebars"]
+
     return (
-        <div>
-            <section id="image-section">
-                <img id="profile-picture" alt="profile"/>
-                <p className="p-3">Welcome! My name is Kayla Aguilera</p>
-            </section>
+        <Row id="box">
+            {/* Profile Picture Section */}
+            <Col flex={7} id="profile-picture">
+                <Avatar size={250} icon={<UserOutlined />} src="https://avatars.githubusercontent.com/u/118678899?s=400&u=513bc2568da26206fb1ed9c72fb4dfd58a8c179f&v=4" />
+                <Row id="name">Kayla Aguilera</Row>
+                <Row className="contact">Phone Number: 678-789-9622</Row>
+                <Row className="contact">Email: aguilera.k02@gmail.com</Row>
+            </Col>
 
-            <section id="text-section">
-                <div>
-                    <div>
-                        Background
-                    </div>
+            {/* Information Section */}
+            <Col flex={17} id="information">
+                {/* Intro */}
+                <section id="intro-section">
+                    <Row>
+                        <div id="intro-text">I recently graduated from Georgia Tech's Full Stack Web Development Bootcamp! I've always had an interest in computers, applications, and creation, but I also love medicine, and in the battle of what career I wanted to pursue, the medical field won by a 1px margin! However, I felt I wasn't getting the creativity and creation aspect I craved in a job, so I decided to transition my career to web development. </div>
+                    </Row>
+                </section>
 
-                    <p>
-                        I have a B.S. in Neuroscience from Mercer University. I was working as an ophthalmic technician for 3 years before deciding to transition into web development.
-                    </p>
-                </div>
+                <section id="prof-section">
+                {/* Front End Proficiencies */}
+                <Col>
+                    <Col className="titles">Front End Proficiencies</Col>
+                    <Col id="list-section">
+                        <ul>
+                            <li className="profs">{frontEnd[0]}</li>
+                            <li className="profs">{frontEnd[1]}</li>
+                            <li className="profs">{frontEnd[2]}</li>
+                        </ul>
 
-                <div>
-                    <div>
-                        Currently
-                    </div>
-                    <p>
-                        By March 17, 2023 I will have completed a Full Stack Coding Bootcamp.
-                    </p>
-                </div>
+                        <ul>
+                            <li className="profs">{frontEnd[3]}</li>
+                            <li className="profs">{frontEnd[4]}</li>
+                            <li className="profs">{frontEnd[5]}</li>
+                        </ul>
 
-                <div>
-                    <div>
-                        Future
-                    </div>
-                    <p>
-                        I want to work towards an AWS Certification and work on learning Python or Java.
-                    </p>
-                </div>
-            </section>
-        </div>
+                        <ul>
+                            <li className="profs">{frontEnd[6]}</li>
+                            <li className="profs">{frontEnd[7]}</li>
+                        </ul>
+                    </Col>
+                </Col>
+
+                {/* Back End Proficiencies */}
+                <Col>
+                    <Col className="titles">Back End Proficiencies</Col>
+                    <Col id="list-section">
+                        <ul>
+                            <li className="profs">{backEnd[0]}</li>
+                            <li className="profs">{backEnd[1]}</li>
+                            <li className="profs">{backEnd[2]}</li>
+                        </ul>
+
+                        <ul>
+                            <li className="profs">{backEnd[3]}</li>
+                            <li className="profs">{backEnd[4]}</li>
+                            <li className="profs">{backEnd[5]}</li>
+                        </ul>
+
+                        <ul>
+                            <li className="profs">{backEnd[6]}</li>
+                        </ul>
+                    </Col>
+                </Col>
+
+                {/* Currently Learning */}
+                <Col>
+                   <Col className="titles">Current/Future Learning</Col>
+                   <Col id="currently-section">
+                        <p>Currently, I am learning TypeScript, and will soon dive into C#. I am working on an application that will be used by vacationers, but have many other passion projects that I can't wait to pursue!</p>
+
+                        <p>While there's a lot to learn in my new journey, after the above are completed, I will obtain Professional Scrum Developer and AWS Certifications.</p>  
+                   </Col>
+                </Col>
+
+                {/* Maybe A Button Section for Q&A */}
+
+                </section>
+            </Col>
+        </Row>
     )
 };
 
 export default AboutMe;
+

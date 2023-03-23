@@ -3,28 +3,87 @@
     --mainpurple: #b2a6ee;
     --mainbeige: #f0e7d8;
     --mainbrown: #a1674a;
-    --burntpink: #ba6e6e
+    --burntpink: #ba6e6e;
 }
+
+#box{
+    background:linear-gradient(var(--mainpink),transparent);
+    background-color:var(--burntpink);
+    padding: 10px;
+  }
 
 #profile-picture {
-    border: var(--mainpurple) 2px solid;
-    height: 250px;
-    width: 250px;
-    background-image: url("../../images/profilepicture.png");
-    background-repeat: no-repeat; 
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#name {
+    font-size: 45px;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 30px;
+    font-family: 'Farsan', cursive;
+}
+
+#intro-text {
+    font-size: 26px;
+    font-family: 'Farsan', cursive;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
-#image-section {
+#intro-section {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px
-    
+    flex-wrap: wrap;
+    width: 0;
+    min-width:fit-content;
+    text-align: center;
+    color: var(--mainpurple)
 }
 
-#text-section {
+.titles {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#prof-section {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+#list-section {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Farsan', cursive;
+    font-size: 25px;
+}
+
+.profs {
+    list-style: none;
+    padding: 5px;
+    border-bottom: var(--mainbrown) 1px solid;
+    color: var(--mainpurple)
+}
+
+#currently-section {
+    width: 0;
+    min-width:fit-content;
+    color: var(--mainpurple);
+    font-family: 'Farsan', cursive;
+    font-size: 25px;
 }
