@@ -6,52 +6,20 @@
     --burntpink: #ba6e6e
 }
 
-.project-picture {
-    width: 301px;
-    height: 150px;
-    border: var(--mainbrown) 2px solid;
-    justify-content: center;
-}
-
-#project-cards {
+#cards-section {
+    background:linear-gradient(var(--mainpink),transparent);
+    background-color:var(--burntpink);
     padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#nav-buttons {
-    margin: 5px;
+#proj-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
-#live-button {
-    padding: 20px;
+.a-links {
+    color: var(--burntpink)
 }
-
-#medi {
-    background-image: url(../../images/medi.png);
-    background-size: contain;
-    background-repeat: no-repeat;}
-
-#weather {
-    background-image: url(../../images/weather.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#quiz {
-    background-image: url(../../images/quiz.png);
-    background-size: contain;
-    background-repeat: no-repeat;}
-
-#schedule {
-    background-image: url(../../images/schedule.png);
-    background-size: contain;
-    background-repeat: no-repeat;}
-
-#binge {
-    background-image: url(../../images/binge.png);
-    background-size: contain;
-    background-repeat: no-repeat;}
-
-#password {
-    background-image: url(../../images/password.png);
-    background-size: contain;
-    background-repeat: no-repeat;}
