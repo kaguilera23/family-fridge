@@ -18,10 +18,6 @@ function Header({currentPage, handlePageChange}) {
               <a href="#Portfolio" id="header-text" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? 'nav-link nav-item nav-links activated' : 'nav-link nav-item nav-links'}>Portfolio</a>
             </li>
 
-            <li className="nav-item nav-links">
-              <a href="#ContactMe" id="header-text" onClick={() => handlePageChange("ContactMe")} className={currentPage === "ContactMe" ? 'nav-link nav-item nav-links activated' : 'nav-link nav-item nav-links'}>Contact Me</a>
-            </li>
-
             <li class="nav-item">
               <a href="#FunFacts" id="header-text" onClick={() => handlePageChange("FunFacts")} className={currentPage === "FunFacts" ? 'nav-link nav-item activated' : 'nav-link nav-item'}>Fun Facts</a>
             </li>
