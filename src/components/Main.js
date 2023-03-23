@@ -3,7 +3,7 @@ import Header from "./Header";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
-import Resume from "./pages/Resume";
+import FunFacts from "./pages/FunFacts";
 import Footer from "./Footer"
 
 export default function MainPage() {
@@ -17,8 +17,8 @@ export default function MainPage() {
         return <Portfolio />;
       case "ContactMe": 
         return <ContactMe />;
-      case "Resume":
-        return <Resume />;
+      case "FunFacts":
+        return <FunFacts />;
       default: 
         return <AboutMe />;
     }

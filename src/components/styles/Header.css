@@ -21,7 +21,12 @@
 }
 
 .nav-links {
-    border-right: white 1px solid;
+    border-right: var(--mainbeige) 1px solid;
+    padding: 4px;
 }
 
+.activated {
+    background-color: #c1455e;
+    border-radius: 15px;
+}
 

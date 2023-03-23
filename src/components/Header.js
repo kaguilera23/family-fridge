@@ -10,20 +10,20 @@ function Header({currentPage, handlePageChange}) {
         <div>
           <ul class="navbar-nav">
 
-            <li class="nav-item active" className="nav-links">
-              <a class="nav-link" href="#AboutMe" id="header-text" onClick={() => handlePageChange("AboutMe")} className={currentPage === "AboutMe" ? 'nav-link active' : 'nav-link'}>About Me</a>
+            <li className="nav-item nav-links">
+              <a href="#AboutMe" id="header-text" onClick={() => handlePageChange("AboutMe")} className={currentPage === "AboutMe" ? 'nav-link nav-item nav-links activated' : 'nav-link nav-item nav-links'}>About Me</a>
             </li> 
 
-            <li class="nav-item" className="nav-links">
-              <a class="nav-link" href="#Portfolio" id="header-text" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+            <li className="nav-item nav-links">
+              <a href="#Portfolio" id="header-text" onClick={() => handlePageChange("Portfolio")} className={currentPage === "Portfolio" ? 'nav-link nav-item nav-links activated' : 'nav-link nav-item nav-links'}>Portfolio</a>
             </li>
 
-            <li class="nav-item" className="nav-links">
-              <a class="nav-link" href="#ContactMe" id="header-text" onClick={() => handlePageChange("ContactMe")} className={currentPage === "ContactMe" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
+            <li className="nav-item nav-links">
+              <a href="#ContactMe" id="header-text" onClick={() => handlePageChange("ContactMe")} className={currentPage === "ContactMe" ? 'nav-link nav-item nav-links activated' : 'nav-link nav-item nav-links'}>Contact Me</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#Resume" id="header-text" onClick={() => handlePageChange("Resume")} className={currentPage === "Resume" ? 'nav-link active' : 'nav-link'}>Resume</a>
+              <a href="#FunFacts" id="header-text" onClick={() => handlePageChange("FunFacts")} className={currentPage === "FunFacts" ? 'nav-link nav-item activated' : 'nav-link nav-item'}>Fun Facts</a>
             </li>
 
           </ul>

@@ -1,0 +1,41 @@
+:root {
+    --mainpink: #a63a50;
+    --mainpurple: #b2a6ee;
+    --mainbeige: #f0e7d8;
+    --mainbrown: #a1674a;
+    --burntpink: #ba6e6e;
+}
+
+#box{
+    background:linear-gradient(var(--mainpink),transparent);
+    background-color:var(--burntpink);
+    padding: 10px;
+}
+
+#parks-stuff {
+    width: 0;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+}
+
+#fun-intro-text {
+    color: var(--mainbeige);
+    font-family: 'Farsan', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+#image {
+    border-radius: 50px;
+}
+
+#fun-list-section {
+    list-style: none;
+}
+
+#fun-list::before {
+    content: "🌲";
+    padding: 3px;
+}

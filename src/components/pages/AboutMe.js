@@ -1,6 +1,7 @@
 import "../styles/AboutMe.css"
 import { Avatar, Col, Row } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import resume from "../../pdf/Resume.pdf"
 
 function AboutMe() {
     const frontEnd = ["HTML5", "CSS", "JavaScript", "React", "Bootstrap", "Chakra UI", "Ant Design", "Handlebars"]
@@ -14,7 +15,8 @@ function AboutMe() {
                 <Avatar size={250} icon={<UserOutlined />} src="https://avatars.githubusercontent.com/u/118678899?s=400&u=513bc2568da26206fb1ed9c72fb4dfd58a8c179f&v=4" />
                 <Row id="name">Kayla Aguilera</Row>
                 <Row className="contact">Phone Number: 678-789-9622</Row>
-                <Row className="contact">Email: aguilera.k02@gmail.com</Row>
+                <Row><a href="mailto:aguilera.k02@gmail.com" className="email">Email: aguilera.k02@gmail.com</a></Row>
+                <Row><a href={resume} download="KAguileraResume" className="email">Download My Resume</a></Row>
             </Col>
 
             {/* Information Section */}
@@ -91,4 +93,3 @@ function AboutMe() {
 };
 
 export default AboutMe;
-

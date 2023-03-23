@@ -37,6 +37,16 @@
     font-family: 'Farsan', cursive;
 }
 
+.email {
+    color: rgb(39, 38, 38);
+    font-size: 30px;
+    font-family: 'Farsan', cursive;
+}
+
+.email:hover {
+    color: var(--burntpink)
+}
+
 #intro-text {
     font-size: 26px;
     font-family: 'Farsan', cursive;
