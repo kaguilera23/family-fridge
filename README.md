@@ -1,9 +1,5 @@
 # Fridge Projects
 
-## Errors
-
-Due to problems with deploying with GitHub pages, please see repository <a href="https://github.com/kaguilera23/fridge-projects">Fridge Projects</a> for full commit history
-
 ## Description
 
 This is the place for you to nicely display to your future employers/clients all of your projects that are worthy of being hung on the family fridge! You can also include sections to "About Me", "Contact Me", and "Resume" pages.
