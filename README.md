@@ -2,18 +2,8 @@
 
 ## Description
 
-This is the place for you to nicely display to your future employers/clients all of your projects that are worthy of being hung on the family fridge! You can also include sections to "About Me", "Contact Me", and "Resume" pages.
-
-## Installation
-
-N/A
+This is the place for you to nicely display to your future employers/clients all of your projects that are worthy of being hung on the family fridge!
 
 ## Usage
 
-When you first load the portfolio, you will be taken to the "About Me" section. However, clicking on any of the links in the navigation bar will load that specific page. There are also links to GitHub, LinkedIn, and Spotify at the bottom of the page.
-
-![homepage](./src/images/readme.png)
-
-## Link
-
-Visit the Portfolio <a href="https://kaguilera23.github.io/family-fridge/">Here!</a>
+Deployment was a little rocky for this one, but checkout the new repository <a href="https://github.com/kaguilera23/fridge-projects">here</a> and the new portfolio <a href="https://kaguilera23.github.io/fridge-projects/">here</a>
